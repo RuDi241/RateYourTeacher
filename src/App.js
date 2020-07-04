@@ -1,20 +1,19 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import HomePage from "./components/HomePage";
-import LoginPage from "./components/LoginPage";
-import SignUpPage from "./components/SignUpPage";
-import CommentsPage from "./components/CommentsPage";
-import "./App.css";
+import HomePage from "./components/pages/HomePage";
+import LoginPage from "./components/pages/LoginPage";
+import SignUpPage from "./components/pages/SignUpPage";
+import CommentsPage from "./components/pages/CommentsPage";
+import AboutPage from "./components/pages/AboutPage";
 
-function App() {
-  return (
-    <div>
-      <Route path="/" component={HomePage} />
-      <Route path="/login" component={LoginPage} />
-      <Route path="/signup" component={SignUpPage} />
-      <Route path="/comments" component={CommentsPage} />
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <Route exact path="/" component={HomePage} />
+    <Route exact path="/login" component={LoginPage} />
+    <Route exact path="/signup" component={SignUpPage} />
+    <Route exact path="/comments" component={CommentsPage} />
+    <Route exact path="/about" component={AboutPage} />
+  </div>
+);
 
 export default App;
