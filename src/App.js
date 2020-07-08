@@ -6,14 +6,22 @@ import SignUpPage from "./components/pages/SignUpPage";
 import CommentsPage from "./components/pages/CommentsPage";
 import AboutPage from "./components/pages/AboutPage";
 
-const App = () => (
-  <div>
-    <Route exact path="/" component={HomePage} />
-    <Route exact path="/login" component={LoginPage} />
-    <Route exact path="/signup" component={SignUpPage} />
-    <Route exact path="/comments" component={CommentsPage} />
-    <Route exact path="/about" component={AboutPage} />
-  </div>
-);
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    return (
+      <div>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/login" component={LoginPage} />
+        <Route exact path="/signup" component={SignUpPage} />
+        <Route exact path="/comments" component={CommentsPage} />
+        <Route exact path="/about" component={AboutPage} />
+      </div>
+    );
+  }
+}
 
 export default App;

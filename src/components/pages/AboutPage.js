@@ -1,8 +1,12 @@
 import React from "react";
-
+import "../../assets/styles/AboutPage.scss";
 class AboutPage extends React.Component {
   render() {
-    return <h1>AboutPage</h1>;
+    return (
+      <div>
+        <span>Rate Your Teacher</span>
+      </div>
+    );
   }
 }
 export default AboutPage;
