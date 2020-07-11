@@ -22,8 +22,7 @@ const LoginForm = (props) => {
         .signInWithEmailAndPassword(data.email, data.password)
         .then((res) => {
           setLoading(false);
-          history.goBack(-1);
-          //need to fix comming from external website
+          props.notFromOutside ? history.goBack(-1) : history.push("/");
         })
         .catch((err) => {
           setLoading(false);
