@@ -5,7 +5,7 @@ import LoginPage from "./components/pages/LoginPage";
 import SignUpPage from "./components/pages/SignUpPage";
 import CommentsPage from "./components/pages/CommentsPage";
 import AboutPage from "./components/pages/AboutPage";
-
+import "./assets/styles/App.scss";
 class App extends React.Component {
   constructor(props) {
     super(props);

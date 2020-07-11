@@ -17,8 +17,8 @@ class SignUpPage extends React.Component {
   }
 
   onSubmit(e) {
+    e.preventDefault();
     if (this.state.password1 === this.state.password2) {
-      e.preventDefault();
       auth
         .createUserWithEmailAndPassword(this.state.email, this.state.password1)
         .then((res) => {
@@ -36,7 +36,7 @@ class SignUpPage extends React.Component {
   render() {
     return (
       <div>
-        <form onSubmit={this.signup}>
+        <form onSubmit={this.signup} method="POST">
           <input
             type="text"
             name="email"
