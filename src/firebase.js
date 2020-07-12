@@ -4,17 +4,23 @@ require("dotenv").config();
 require("firebase/firestore");
 require("firebase/auth");
 
-var firebaseConfig = {
-  apiKey: "YOUR_API_KEY", //change this to your api key
-  authDomain: "test-9ab18.firebaseapp.com",
-  databaseURL: "https://test-9ab18.firebaseio.com",
-  projectId: "test-9ab18",
-  storageBucket: "test-9ab18.appspot.com",
-  messagingSenderId: "935526864282",
-  appId: "1:935526864282:web:1b2b9a01e5475b2cba1623",
+const firebaseConfig = {
+  apiKey: " hi hi",
+  authDomain: "rate-your-teacher-5e1f0.firebaseapp.com",
+  databaseURL: "https://rate-your-teacher-5e1f0.firebaseio.com",
+  projectId: "rate-your-teacher-5e1f0",
+  storageBucket: "rate-your-teacher-5e1f0.appspot.com",
+  messagingSenderId: "494234996624",
+  appId: "1:494234996624:web:8991532ff6b172ba7a6d15",
+  measurementId: "G-82PTY1P25V",
 };
-// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 var db = firebase.firestore();
 var auth = firebase.auth();
+
+const provider = new firebase.auth.GoogleAuthProvider();
+provider.setCustomParameters({
+  promt: "select_account",
+});
+export const signInWithGoogle = () => firebase.auth().signInWithPopup(provider);
 export { firebase, db as default, auth };

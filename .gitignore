@@ -2,3 +2,4 @@
 yarn.lock
 .env
 src/firebase.js
+.env
