@@ -5,7 +5,8 @@ import LoginPage from "./components/pages/LoginPage";
 import SignUpPage from "./components/pages/SignUpPage";
 import CommentsPage from "./components/pages/CommentsPage";
 import AboutPage from "./components/pages/AboutPage";
-import {signInWithGoogle} from './firebase'
+import "./assets/styles/App.scss";
+import { signInWithGoogle } from "./firebase";
 class App extends React.Component {
   constructor(props) {
     super(props);
