@@ -5,7 +5,7 @@ require("firebase/firestore");
 require("firebase/auth");
 
 const firebaseConfig = {
-  apiKey: " hi hi",
+  apiKey: " hihi",
   authDomain: "rate-your-teacher-5e1f0.firebaseapp.com",
   databaseURL: "https://rate-your-teacher-5e1f0.firebaseio.com",
   projectId: "rate-your-teacher-5e1f0",
