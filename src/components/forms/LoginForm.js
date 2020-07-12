@@ -5,7 +5,7 @@ import { isEmail } from "validator";
 import Error from "../messages/Error";
 const LoginForm = (props) => {
   const [data, setData] = useState({ email: "", password: "" });
-  const [errors, setErrors] = useState({});
+  const [errors, setErrors] = useState({ email: "", password: "", server: "" });
   const [loading, setLoading] = useState(false);
   const history = useHistory();
 
@@ -26,7 +26,7 @@ const LoginForm = (props) => {
         })
         .catch((err) => {
           setLoading(false);
-          error.server = err.message;
+
           setErrors({ ...errors, server: err.message });
         });
     }
