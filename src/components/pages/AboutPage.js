@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/styles/AboutPage.scss";
+import "./AboutPage.scss";
 class AboutPage extends React.Component {
   render() {
     return (
