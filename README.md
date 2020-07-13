@@ -32,7 +32,7 @@ The website for rating the teachers in schools by (the students).
 
 #### Students could search to find the teacher whould like to rate
 
-4. Find Teacher Page
+4. Student's profil + Find Teacher Page
 
 ![Find](https://github.com/NourMalakeh/RateYourTeacher/blob/master/images/profil.png)
 
