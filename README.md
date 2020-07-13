@@ -18,7 +18,7 @@ The website for rating the teachers in schools by (the students).
 
 1. HomePage
 
-![HoemPage](https://github.com/NourMalakeh/RateYourTeacher/blob/master/images/HomePage.png)
+![HoemPage](https://github.com/NourMalakeh/RateYourTeacher/blob/master/images/Home.png)
 
 
 2. SignUp Page
@@ -27,14 +27,14 @@ The website for rating the teachers in schools by (the students).
 
 3. SignIn Page
 
-![SignIn](https://github.com/NourMalakeh/RateYourTeacher/blob/master/images/SignIn.png)
+![SignIn](https://github.com/NourMalakeh/RateYourTeacher/blob/master/images/LogIn.png)
 
 
 #### Students could search to find the teacher whould like to rate
 
 4. Find Teacher Page
 
-![Find](https://github.com/NourMalakeh/RateYourTeacher/blob/master/images/findPage.png)
+![Find](https://github.com/NourMalakeh/RateYourTeacher/blob/master/images/search.png)
 
 
 5. Teacher Profile
@@ -43,10 +43,10 @@ The website for rating the teachers in schools by (the students).
 
 #### (Easiness, Helpfulness, Knowledge ) in addition to write a comment.
 
-![Teacher Profile](https://github.com/NourMalakeh/RateYourTeacher/blob/master/images/teacherProfile.png)
+![Teacher Profile](https://github.com/NourMalakeh/RateYourTeacher/blob/master/images/Teacherprofil.png)
 
 
 
 
 
-#### Complete Design Link on Figma [prototype](https://www.figma.com/file/es4h6XVMQgi6DjiNaSfHV9/final-Project?node-id=0%3A1).
+#### Complete Design Link on Figma [prototype](https://www.figma.com/file/P15jPY6OcPNenpPslq7crX/Untitled?node-id=0%3A1).
