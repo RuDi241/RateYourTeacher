@@ -34,7 +34,7 @@ The website for rating the teachers in schools by (the students).
 
 4. Find Teacher Page
 
-![Find](https://github.com/NourMalakeh/RateYourTeacher/blob/master/images/search.png)
+![Find](https://github.com/NourMalakeh/RateYourTeacher/blob/master/images/profil.png)
 
 
 5. Teacher Profile
