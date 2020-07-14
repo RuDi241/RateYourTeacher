@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Welcome from "../home/homePageWelcome/Welcome";
 class HomePage extends React.Component {
   constructor(props) {
