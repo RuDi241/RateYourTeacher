@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Welcome from "../home/homePageWelcome/Welcome";
 class HomePage extends React.Component {
   constructor(props) {
     super(props);
@@ -9,14 +10,8 @@ class HomePage extends React.Component {
   }
   render() {
     return (
-      <div>
-        <Link to="/login" params={{ notFromOutside: true }}>
-          LoginPage
-        </Link>
-        <Link to="/login">LoginPage</Link>
-        <Link to="/signup">SignUp</Link>
-        <Link to="/about">About</Link>
-        <Link to="/comments">Comments</Link>
+      <div style={{ margin: "100px" }}>
+        <Welcome />
       </div>
     );
   }
