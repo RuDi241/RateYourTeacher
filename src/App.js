@@ -7,7 +7,7 @@ import CommentsPage from "./components/pages/CommentsPage";
 import AboutPage from "./components/pages/AboutPage";
 import "./App.scss";
 import { signInWithGoogle } from "./firebase";
-import Header from "./components/main/header/Header";
+import Header from "./components/home/header/Header";
 class App extends React.Component {
   constructor(props) {
     super(props);

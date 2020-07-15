@@ -1,0 +1,128 @@
+.loginContainer {
+  display: flex;
+  .LoginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 65%;
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      margin-top: 20px;
+      font-family: Roboto;
+      font-weight: bold;
+      font-size: 60px;
+      text-align: center;
+      color: #36204e;
+    }
+    h4 {
+      font-family: Roboto;
+      font-size: 13px;
+      text-align: center;
+      color: #36204e;
+    }
+
+    form {
+      min-height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 50px;
+      color: #36204e;
+      button {
+        background-image: linear-gradient(to right, #edc7b4, #984673, #36204e);
+        border-radius: 40px;
+        width: 200px;
+        height: 50px;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+      }
+      button:focus {
+        outline: none;
+      }
+      input::-ms-value {
+        padding-left: 10px;
+      }
+    }
+    input {
+      border-radius: 2em;
+      border: none;
+      width: 350px;
+      height: 50px;
+      color: #36204e;
+      font-size: 18px;
+    }
+    .input {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin: auto;
+      max-width: 22em;
+      position: relative;
+      box-sizing: border-box;
+      $border: 3px;
+      color: #fff;
+      background-clip: padding-box; /* !importanté */
+      border: solid $border transparent; /* !importanté */
+      border-radius: 2em;
+      margin-bottom: 10px;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        margin: -$border;
+        border-radius: inherit;
+        background: linear-gradient(to right, #edc7b4, #984673, #36204e);
+      }
+    }
+    input::placeholder {
+      padding-left: 10px;
+      color: #36204e;
+      font-size: 16px;
+    }
+    input:focus {
+      outline: none;
+    }
+    .links {
+      display: flex;
+      width: 300px;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    background: linear-gradient(
+      180deg,
+      #edc7b4 12.5%,
+      #984673 69.79%,
+      #36204e 89.06%
+    );
+    color: #fff;
+    text-align: center;
+    .header {
+      font-weight: bold;
+      font-size: 26px;
+    }
+    .text {
+      font-size: 16px;
+      width: 55%;
+    }
+  }
+}
