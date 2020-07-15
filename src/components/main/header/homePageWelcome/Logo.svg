@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 84" width="89" height="84">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ffffff;stroke-width: 4.262 } 
+		.shp1 { fill: #ffffff;stroke: #ffffff;stroke-width: 1.8 } 
+		.shp2 { fill: #984673;stroke: #984673;stroke-width: 1.694 } 
+		.shp3 { fill: #ffffff;stroke: #ffffff;stroke-width: 1.806 } 
+		.shp4 { fill: #984673;stroke: #984673;stroke-width: 1.833 } 
+		.shp5 { fill: none;stroke: #ffffff;stroke-width: 2.752 } 
+	</style>
+	<g >
+		<path class="shp0" d="M88.61 81.22L3.43 81.22L3.43 81.22L2.06 -0.02" />
+		<path class="shp1" d="M16.47 49.15L23.47 49.15L23.47 82.61L16.47 82.61L16.47 49.15Z" />
+		<path class="shp2" d="M33.62 37L40.35 37L40.35 82.29L33.62 82.29L33.62 37Z" />
+		<path class="shp3" d="M50.3 24.21L57.68 24.21L57.68 81.48L50.3 81.48L50.3 24.21Z" />
+		<path class="shp4" d="M66.57 17.42L73.54 17.42L73.54 81.84L66.57 81.84L66.57 17.42Z" />
+		<g >
+			<path class="shp5" d="M14.9 31.55L42.17 12.5" />
+			<path class="shp5" d="M42.67 23.93L42.17 12.5L31.26 10.32" />
+		</g>
+	</g>
+</svg>
