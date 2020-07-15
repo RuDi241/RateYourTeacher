@@ -1,5 +1,7 @@
 .loginContainer {
   display: flex;
+  background-image: url("../images/LoginPage.png") no-repeat;
+  background-position: center center;
   .LoginForm {
     display: flex;
     flex-direction: column;
@@ -107,6 +109,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 510px;
     width: 35%;
     background: linear-gradient(
       180deg,

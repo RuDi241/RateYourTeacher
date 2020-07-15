@@ -86,7 +86,7 @@ const LoginForm = (props) => {
             </Link>
           </span>
           <br />
-          <button>Login</button>
+          <button>Sign in</button>
 
           {loading && <Error message="true" />}
         </form>

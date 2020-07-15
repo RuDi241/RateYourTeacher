@@ -8,6 +8,7 @@ import AboutPage from "./components/pages/AboutPage";
 import "./App.scss";
 import { signInWithGoogle } from "./firebase";
 import Header from "./components/home/header/Header";
+import Footer from "./components/home/footer/Footer";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -22,10 +23,10 @@ class App extends React.Component {
         <Route exact path="/signup" component={SignUpPage} />
         <Route exact path="/comments" component={CommentsPage} />
         <Route exact path="/about" component={AboutPage} />
-        <button onClick={signInWithGoogle}>Sign up with google</button>
+        <Footer />
       </div>
     );
   }
 }
-
+//<button onClick={signInWithGoogle}>Sign up with google</button>
 export default App;
