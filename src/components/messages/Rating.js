@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Rating.scss";
 import { FaStar } from "react-icons/fa";
 
@@ -16,7 +17,9 @@ const Rating = (props) => {
   };
   return (
     <div className="Rating">
-      <span>{props.name}</span>
+      <span>
+        <Link to="/comments">{props.name} </Link>
+      </span>
       <span>{props.subject}</span>
       <span>{makeStars(stars)}</span>
     </div>
