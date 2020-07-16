@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Welcome.scss";
+import Boy from "../../images/Boy.png";
 const Header = () => {
   return (
     <div className="Welcome">
@@ -14,11 +15,12 @@ const Header = () => {
       </div>
       <div>
         <Link to="/login" params={{ notFromOutside: true }} className="button">
-          <span className="buttonText">Log in</span>
+          <span className="buttonText">Sign in</span>
         </Link>
-        <Link to="/login" params={{ notFromOutside: true }} className="button">
-          <span className="buttonText">Log in</span>
+        <Link to="/signup" params={{ notFromOutside: true }} className="button">
+          <span className="buttonText">Sign up</span>
         </Link>
+        <img src={Boy} alt="" />
       </div>
     </div>
   );

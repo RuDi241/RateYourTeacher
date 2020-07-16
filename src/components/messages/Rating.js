@@ -7,7 +7,7 @@ const Rating = (props) => {
   const makeStars = (stars) => {
     stars = [];
     for (var i = 1; i <= 5; i++) {
-      if (i <= props.rating) stars.push(<FaStar size={18} color="gold" />);
+      if (i <= props.rating) stars.push(<FaStar size={18} color="#984673" />);
       else {
         stars.push(<FaStar size={18} color="gray" />);
       }

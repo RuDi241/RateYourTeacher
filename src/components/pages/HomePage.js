@@ -9,7 +9,7 @@ class HomePage extends React.Component {
   }
   render() {
     return (
-      <div style={{ margin: "100px" }}>
+      <div style={{ margin: "80px 100px" }}>
         <Welcome />
       </div>
     );

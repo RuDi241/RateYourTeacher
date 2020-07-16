@@ -7,6 +7,7 @@ body {
 .Welcome {
   justify-self: center;
   display: flex;
+
   flex-direction: column;
   align-items: center;
   height: 350px;
@@ -16,8 +17,9 @@ body {
   justify-content: space-around;
   color: #f8f7f4;
   background: linear-gradient(360deg, #984673 4.01%, #36204e 98.22%);
-  border-radius: 30px;
+  border-radius: 25px;
   box-shadow: -15px -11px 5px rgba(54, 32, 78, 0.7);
+  margin-left: 30px;
   .text {
     font-size: 14px;
     margin: 0px 30px;
@@ -37,5 +39,10 @@ body {
     text-decoration: none;
     font-size: 18px;
     margin: 0px 25px;
+  }
+  img {
+    position: absolute;
+    left: 680px;
+    bottom: 47px;
   }
 }

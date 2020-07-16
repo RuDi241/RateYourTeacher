@@ -1,0 +1,120 @@
+.CommentsPage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #36204e;
+  .profile {
+    min-width: 300px;
+    height: 510px;
+    display: flex;
+    width: 40%;
+    .info {
+      min-width: 400px;
+      span {
+        padding: 5px;
+        font-weight: bold;
+      }
+    }
+    .left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        background-color: #c4c4c4;
+      }
+      h4 {
+        color: gray;
+      }
+      table {
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+      }
+      td {
+        color: #36204e;
+        margin: 10px;
+        span {
+          display: inline-block;
+          width: 90px;
+        }
+      }
+      button {
+        background: linear-gradient(270deg, #984673 33.46%, #36204e 133.46%);
+        border-radius: 40px;
+        border: none;
+        color: #fff;
+        height: 40px;
+        width: 100px;
+        cursor: pointer;
+      }
+      button:focus {
+        outline: none;
+      }
+      .one,
+      .two,
+      .three {
+        display: block;
+        height: 15px;
+        //margin: 5px 0px;
+        min-width: 50px;
+        background-color: #170926;
+      }
+      .one {
+        width: 140px;
+      }
+      .two {
+        width: 50px;
+      }
+      .three {
+        width: 200px;
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // justify-content: center;
+      margin-top: 80px;
+      max-height: 600px;
+      .info {
+        color: #36204e;
+        align-self: start;
+      }
+    }
+  }
+  .comments {
+    max-height: 500px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    padding: 10% 2em;
+    box-sizing: border-box;
+
+    $border: 5px;
+    background: #fff;
+    background-clip: padding-box; /* !importanté */
+    border: solid $border transparent; /* !importanté */
+    border-radius: 1em;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      margin: -$border; /* !importanté */
+      border-radius: inherit; /* !importanté */
+      background: linear-gradient(to right, red, orange);
+    }
+  }
+}

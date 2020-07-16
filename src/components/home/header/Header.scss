@@ -19,6 +19,13 @@ body {
     font-size: 48px;
     color: #f8f7f4;
   }
+  .link {
+    text-decoration: none;
+    outline: none;
+  }
+  .link :focus {
+    outline: none;
+  }
   .search {
     color: #36204e;
     font-size: 18px;

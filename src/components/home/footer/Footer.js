@@ -8,7 +8,7 @@ import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <span className="footer">
       <ul>
         <li>
           <a href="www.facebook.com">
@@ -23,13 +23,11 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="#">
-            <FaMailBulk size={16} />
-            {"  "}Email: rateyourteacher2020@gmail.com
-          </a>
+          <FaMailBulk size={16} />
+          {"  "}Email: rateyourteacher2020@gmail.com
         </li>
       </ul>
-    </div>
+    </span>
   );
 };
 
