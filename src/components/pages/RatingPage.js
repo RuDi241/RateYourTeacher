@@ -51,8 +51,8 @@ const RatingPage = () => {
           <span>Subject</span>
           <span>Rating</span>
         </div>
-        <Rating name="Ziad Ali" subject="cs" rating="4" />
-        <Rating name="Amin Hijaz" subject="cs" rating="3" />
+        <Rating name="Ziad Ali" subject="Computer Science" rating="4" />
+        <Rating name="Amin Hijaz" subject="Computer Science" rating="3" />
       </div>
     </div>
   );
