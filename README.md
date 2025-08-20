@@ -12,7 +12,7 @@ The website for rating the teachers in schools by (the students).
 3. Teachers should have profiles and a short bio about them + profile picture.
 4. The login of students should be thought of as an anonymous username and pwd for each class. 
 
-#### Desing
+#### Design
 
 **we design three drafts, and here is the final one using Figma**
 
